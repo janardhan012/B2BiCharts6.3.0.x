@@ -5,7 +5,7 @@ entries:
       charts.openshift.io/name: IBM Sterling B2B Integrator
     apiVersion: v2
     appVersion: 6.3.0.0
-    created: "2026-08-31T09:20:14.66589571-04:00"
+    created: "2026-09-07T09:13:35.270595763-04:00"
     dependencies:
     - alias: sch
       name: ibm-sch
@@ -15,17 +15,17 @@ entries:
       condition: documentService.enabled
       name: ibm-document-service-prod
       repository: ""
-      version: 1.2.3
+      version: 1.3.0
     - alias: as4Service
       condition: as4Service.enabled
       name: ibm-as4service-prod
       repository: ""
-      version: 1.1.3
+      version: 1.2.0
     - alias: identityService
       condition: identityService.enabled
       name: ibm-identity-service-prod
       repository: ""
-      version: 1.0.3
+      version: 1.1.0
     description: IBM Sterling B2B Integrator helps companies integrate complex B2B
       EDI processes with their partner communities. Organizations get a single, flexible
       B2B platform that supports most communication protocols, helps secure your B2B
@@ -36,7 +36,7 @@ entries:
       For additional details regarding install parameters check https://www.ibm.com/docs/en/b2b-integrator/6.2.2?topic=integrator-installing-sterling-b2b-using-certified-container.
       License By installing this product you accept the license terms https://ibm.biz/B2Bi_622_withRHO
       | https://ibm.biz/B2Bi_622_forRHO
-    digest: 47bd8ac896df6a2818d474de91b9991f91c8ba831c8cabe72713d070bacd1d2e
+    digest: f21b399fa32f3207d9ceb4973c276959f7fc30b9f5bca3cb4b74f190d947ad64
     home: https://www.ibm.com/docs/en/b2b-integrator/6.2.2
     icon: https://raw.githubusercontent.com/IBM/charts/master/logo/ibm-b2bi-icon.png
     keywords:
@@ -64,7 +64,7 @@ entries:
       charts.openshift.io/name: IBM Sterling File Gateway
     apiVersion: v2
     appVersion: 6.3.0.0
-    created: "2026-08-31T09:20:14.700915256-04:00"
+    created: "2026-09-07T09:13:35.301748728-04:00"
     dependencies:
     - alias: sch
       name: ibm-sch
@@ -94,7 +94,7 @@ entries:
       check https://www.ibm.com/support/knowledgecenter/en/SS3JSW_6.2.2/installing/installing/integrator/InstallingCertifiedContainer.html.
       License By installing this product you accept the license terms https://ibm.biz/SFG_622_withRHO
       | https://ibm.biz/SFG_622_forRHO
-    digest: d8cd58a70840122d07dd65dbccf328f558d107ffb650900fceb6ed7792597d4b
+    digest: f42ae292b24628bcc9bafc92f7627a2b9c96001f4e1ce9a7bf6c6bb336c540a2
     home: https://www.ibm.com/support/knowledgecenter/SS3JSW_6.2.2/kc_welcome_b2bi.html
     icon: https://raw.githubusercontent.com/IBM/charts/master/logo/ibm-sfg-icon.png
     keywords:
@@ -117,4 +117,4 @@ entries:
     urls:
     - ibm-sfg-prod-3.3.0.tgz
     version: 3.3.0
-generated: "2026-08-31T09:20:14.621195454-04:00"
+generated: "2026-09-07T09:13:35.235399402-04:00"
