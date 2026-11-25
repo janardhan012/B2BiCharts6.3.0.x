@@ -5,7 +5,7 @@ entries:
       charts.openshift.io/name: IBM Sterling B2B Integrator
     apiVersion: v2
     appVersion: 6.3.0.0
-    created: "2026-11-24T23:23:05.002165392-05:00"
+    created: "2026-11-25T02:56:51.508232803-05:00"
     dependencies:
     - alias: sch
       name: ibm-sch
@@ -64,7 +64,7 @@ entries:
       charts.openshift.io/name: IBM Sterling File Gateway
     apiVersion: v2
     appVersion: 6.3.0.0
-    created: "2026-11-24T23:23:05.018349128-05:00"
+    created: "2026-11-25T02:56:51.525385627-05:00"
     dependencies:
     - alias: sch
       name: ibm-sch
@@ -117,4 +117,4 @@ entries:
     urls:
     - ibm-sfg-prod-3.3.0.tgz
     version: 3.3.0
-generated: "2026-11-24T23:23:04.982853623-05:00"
+generated: "2026-11-25T02:56:51.48886644-05:00"
